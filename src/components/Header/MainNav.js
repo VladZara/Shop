@@ -12,7 +12,6 @@ import PublicIcon from '@mui/icons-material/Public';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import  './header.css'
 class MainNav extends Component {
     render() {

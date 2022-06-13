@@ -1,11 +1,14 @@
+import TopSide from "../src/components/Topside/Topside";
+import MainNav from "./components/Header/MainNav";
+import "bootstrap/dist/css/bootstrap.min.css"; 
 import './App.css';
-import MainNav from '../src/componets/header/header' 
 
 function App() {
   return (
-    <>
-      <MainNav />
-    </>
+    <div className="App">
+      <MainNav/>
+      <TopSide/>
+    </div>
   );
 }
 
