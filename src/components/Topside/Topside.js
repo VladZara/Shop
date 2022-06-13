@@ -7,7 +7,7 @@ import Info from '../Info/Info';
 
 const TopSide = () =>{
     return (
-        <Container fluid="md">
+        <Container fluid="md" className="topside">
         <Row>
           <Col>
           <Slider/>
