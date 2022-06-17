@@ -5,20 +5,20 @@ import Slider from '../Slider/Slider';
 import RightSide from '../RightSide/RightSide';
 import Info from '../Info/Info';
 
-const TopSide = () =>{
+const TopSide = () => {
     return (
-        <Container fluid="md" className="topside">
+      <Container fluid="md" className="topside">
         <Row>
           <Col>
-          <Slider/>
+            <Slider/>
           </Col>
-          <Col>
-          <RightSide/>
-          </Col>
+            <Col>
+              <RightSide/>
+            </Col>
         </Row>
-        <Row >
+          <Row>
             <Info/>
-        </Row>    
+          </Row>    
       </Container>
     )
 }
