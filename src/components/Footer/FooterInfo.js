@@ -9,7 +9,7 @@ import FooterBottom from "./FooterBottom";
 const FooterInfo = () => {
     return(
         <div className="footerInfo my-4">
-            <Container>
+            <Container fluid="true" className="mx-5">
                 <Row>
                     {/*Column1 */}
                     <div className="col-md-3 col-sm-6 alignment">
