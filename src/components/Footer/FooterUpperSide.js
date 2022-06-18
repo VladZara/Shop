@@ -8,7 +8,7 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 const FooterUpperSide = () => {
     return(
         <div className="d-flex footer-part1 my-3 p-0 w-100 align-items-center justify-content-around">
-            <p className="title m-0 fw-bold">BE IN TOUCH WITH US:</p>
+            <p className="title m-0 fw-bold fs-6">BE IN TOUCH WITH US:</p>
             <div className="d-flex">
                 <Form.Group controlId="formBasicEmail">
                     <Form.Control className="form mx-2 border-0 m-0" type="email" placeholder="Enter your email" />
