@@ -1,0 +1,54 @@
+.stars{
+    display: flex;
+    flex-wrap: nowrap;
+    filter: invert(28%) sepia(29%) saturate(3476%) hue-rotate(30deg) brightness(190%) contrast(139%);
+    height: 15px;
+}
+
+.item-view{
+    width: 200px;
+    justify-content: space-around;
+}
+
+.card{
+    margin-left: 8px;
+    border: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-info{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.name{
+    display: flex;
+    font-size: 12px;
+}
+
+#price{
+    font-size: 15px;
+}
+
+.container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.button{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: rgb(227, 227, 227);
+    border: none;
+    color: black;
+}
