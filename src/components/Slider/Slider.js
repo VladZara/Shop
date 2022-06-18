@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/esm/Carousel';
-import Img1 from '../../images/main1_1.webp';
+import Img1 from '../../images/slider1.webp';
 const Slider = () => {
     return (
             <Carousel variant="dark">

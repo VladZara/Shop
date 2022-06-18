@@ -6,18 +6,12 @@
     justify-content: center;
     
 }
-.pa{
-    justify-content: space-between;
-}
 .head{
     justify-content: space-around;
     align-items: center;
-    width: 1400px;
+    width: 1000px;
     height: 50%;
     font-size: 18px;
-}
-.icons{
-    justify-content: flex-end;
 }
 .headertwo{
     justify-content: space-evenly;

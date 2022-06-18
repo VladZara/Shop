@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Figure from 'react-bootstrap/esm/Figure';
-import Img2 from '../../images/main1_2.webp';
-import Img3 from '../../images/main3.webp';
-import Img4 from '../../images/main4.jpeg';
+import Img2 from '../../images/women.webp';
+import Img3 from '../../images/men.webp';
+import Img4 from '../../images/accessories.jpeg';
 
 const RightSide = () => {
     return (
