@@ -5,6 +5,7 @@ import ForMen from "./components/ImageGrid/ForMen";
 import ForWomen from "./components/ImageGrid/ForWomen";
 import './App.css';
 import Footer from "./components/Footer/Footer";
+import TwoContainers from "./components/TwoContainers/TwoContainers";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <TopSide/>
         <ForWomen/>
         <ForMen/>
+        <TwoContainers/>
         <Footer/>
     </div>
   );
