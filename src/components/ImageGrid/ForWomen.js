@@ -22,44 +22,44 @@ export const ForWomen = () => {
     <Container fluid="md" className="container">
     <h1 className="title">WOMEN'S</h1>
     <Row>
-        <Col>
+        <Col className="col-card">
             <Image src={img1} className="item-view"/>
             {Cards("Women's tracksuit Q109", "$ 38.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img2} className="item-view"></Image>
             {Cards("Cluse La Boheme Rose Gold", "$ 30.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img3} className="item-view"></Image>
             {Cards("Mercury Tee", "$ 54.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img4} className="item-view"></Image>
             {Cards("Skin Sweatpans", "$ 21.00")}
         </Col>
     </Row>
     
     <Row>
-        <Col>
+        <Col className="col-card">
             <Image src={img5} className="item-view"/>
             {Cards("Short Sleeved Hoodie", "$ 32.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img6} className="item-view"></Image>
             {Cards("Ridley High Waist", "$ 68.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img7} className="item-view"></Image>
             {Cards("Cream women pants", "$ 45.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img8} className="item-view"></Image>
             {Cards("Simple Skin T-shirt", "$ 20.00")}
         </Col>
