@@ -22,44 +22,44 @@ export const ForMen = () => {
     <Container fluid="md" className="container">
     <h1 className="title">MEN'S</h1>
     <Row>
-        <Col>
+        <Col className="col-card">
             <Image src={img1} className="item-view"/>
             {Cards("Striped Sweathirt", "$ 38.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img2} className="item-view"></Image>
             {Cards("Men pants", "$ 30.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img3} className="item-view"></Image>
             {Cards("Men Knit Sweater", "$ 54.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img4} className="item-view"></Image>
             {Cards("Dusk Pom Beanie", "$ 180.00")}
         </Col>
     </Row>
     
     <Row>
-        <Col>
+        <Col className="col-card">
             <Image src={img5} className="item-view"/>
             {Cards("Denim Truker Jacket", "$ 32.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img6} className="item-view"></Image>
             {Cards("Denim Vest", "$ 320.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img7} className="item-view"></Image>
             {Cards("Leather White Trainers", "$ 45.00")}
         </Col>
 
-        <Col>
+        <Col className="col-card">
             <Image src={img8} className="item-view"></Image>
             {Cards("Checked Tailored Trousers", "$ 280.00")}
         </Col>
