@@ -5,6 +5,8 @@ import ForMen from "./components/ImageGrid/ForMen";
 import ForWomen from "./components/ImageGrid/ForWomen";
 import './App.css';
 import Footer from "./components/Footer/Footer";
+// import WomenPage from "./components/CategoryPages/WomenPage";
+// import MenPage from "./components/CategoryPages/MenPage";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <ForWomen/>
         <ForMen/>
         <Footer/>
+        {/* <WomenPage/>
+        <MenPage/> */}
     </div>
   );
 }

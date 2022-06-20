@@ -1,0 +1,27 @@
+.category{
+    background-color: rgb(235, 235, 235);
+    height: 80px;
+    width: 100%;
+    position: absolute;
+}
+
+.title-category{
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    filter: hue-rotate(80deg) brightness(290%) contrast(0%)
+}
+
+.filters{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    font-size: 12px;
+    height: 16px;
+}
