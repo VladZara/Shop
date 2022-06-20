@@ -1,17 +1,17 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import {Container, Row, Col, Image} from 'react-bootstrap'
+import Cards from "./Cards";
+import Button from 'react-bootstrap/Button';
 
-import Cards from "../ImageGrid/Cards";
-import "./Category.css"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/esm/Row';
+import Col from 'react-bootstrap/esm/Col';
+import Image from 'react-bootstrap/Image';
 
-import IconButtons from "./IconButtons";
+import "./Cards.css"
 
-function ImgGreed(props) {
+export const ImageGrid = (props) => {
     return (
-    <Container fluid="md" className="container">
-
-        <IconButtons/>
-
+    <Container fluid="md" className="container col-container">
+    <h1 className="title">{props.title}</h1>
         <Row>
             <Col>
                 <Image src={props.img1} className="item-view"/>
@@ -32,9 +32,9 @@ function ImgGreed(props) {
                 <Image src={props.img4} className="item-view"/>
                 <Cards name={props.name4} price={props.price4}/>
             </Col>
-            </Row>
+        </Row>
 
-            <Row>
+        <Row>
             <Col>
                 <Image src={props.img5} className="item-view"/>
                 <Cards name={props.name5} price={props.price5}/>
@@ -55,8 +55,13 @@ function ImgGreed(props) {
                 <Cards name={props.name8} price={props.price8}/>
             </Col>
         </Row>
-    </Container>
-  );
+
+    <Button variant="secondary" size="lg" className="button">
+        SEE ALL
+    </Button>
+    
+</Container>
+    )
 }
 
-export default ImgGreed;
+export default ImageGrid

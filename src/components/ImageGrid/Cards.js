@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/esm/Card';
-import Image from 'react-bootstrap/esm/Image';
 import Stars from "./Stars"
 import "./Cards.css"
 
