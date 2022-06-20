@@ -10,7 +10,7 @@ return (
     <Card.Subtitle className="mb-2 text-muted name">{name}</Card.Subtitle>
     <div className="card-info">
       <Card.Title id="price">{price}</Card.Title>
-      {Stars()}
+      <Stars/>
     </div>
   </Card.Body>
 </Card>)

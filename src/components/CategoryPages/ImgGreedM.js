@@ -1,27 +1,27 @@
-import Cards from "./Cards";
-import SeeAll from "./SeeAll"
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Container, Row, Col, Image} from 'react-bootstrap'
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/esm/Row';
-import Col from 'react-bootstrap/esm/Col';
-import Image from 'react-bootstrap/Image';
+import Cards from "../ImageGrid/Cards";
+import "./Category.css"
 
-import img1 from "./imgs/image1.png";
-import img2 from "./imgs/image2.png";
-import img3 from "./imgs/image3.png";
-import img4 from "./imgs/image4.png";
-import img5 from "./imgs/image5.png";
-import img6 from "./imgs/image6.png";
-import img7 from "./imgs/image7.png";
-import img8 from "./imgs/image8.png";
+import img1 from "../ImageGrid/imgs/image1.png";
+import img2 from "../ImageGrid/imgs/image2.png";
+import img3 from "../ImageGrid/imgs/image3.png";
+import img4 from "../ImageGrid/imgs/image4.png";
+import img5 from "../ImageGrid/imgs/image5.png";
+import img6 from "../ImageGrid/imgs/image6.png";
+import img7 from "../ImageGrid/imgs/image7.png";
+import img8 from "../ImageGrid/imgs/image8.png";
 
-import "./Cards.css"
+import IconButtons from "./IconButtons";
 
-export const ForMen = () => {
+function MImgGreed() {
     return (
     <Container fluid="md" className="container">
-    <h1 className="title">MEN'S</h1>
-    <Row>
+
+        {IconButtons()}
+
+        <Row>
         <Col>
             <Image src={img1} className="item-view"/>
             {Cards("Striped Sweathirt", "$ 38.00")}
@@ -64,11 +64,8 @@ export const ForMen = () => {
             {Cards("Checked Tailored Trousers", "$ 280.00")}
         </Col>
     </Row>
-
-    <SeeAll/>
-    
-</Container>
-    )
+    </Container>
+  );
 }
 
-export default ForMen
+export default MImgGreed;
