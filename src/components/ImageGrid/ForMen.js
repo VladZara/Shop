@@ -65,7 +65,7 @@ export const ForMen = () => {
         </Col>
     </Row>
 
-    {SeeAll()}
+    <SeeAll/>
     
 </Container>
     )

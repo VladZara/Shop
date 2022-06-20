@@ -65,7 +65,7 @@ export const ForWomen = () => {
         </Col>
     </Row>
 
-        {SeeAll()}
+    <SeeAll/>
 
 </Container>
     )
