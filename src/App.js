@@ -5,19 +5,20 @@ import ForMen from "./components/ImageGrid/ForMen";
 import ForWomen from "./components/ImageGrid/ForWomen";
 import './App.css';
 import Footer from "./components/Footer/Footer";
-// import WomenPage from "./components/CategoryPages/WomenPage";
+// import Subscribe from "./components/Subscribe/Subscribe";
+import CategoryPage from "./components/CategoryPages/CategoryPage";
 // import MenPage from "./components/CategoryPages/MenPage";
 
 function App() {
   return (
     <div className="App">
-        <MainNav/>
+        {/* <MainNav/>
         <TopSide/>
         <ForWomen/>
         <ForMen/>
-        <Footer/>
-        {/* <WomenPage/>
-        <MenPage/> */}
+        <Subscribe/>
+        <Footer/> */}
+        <CategoryPage category="Women"/>
     </div>
   );
 }
