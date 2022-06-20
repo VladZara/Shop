@@ -52,3 +52,7 @@
     border: none;
     color: black;
 }
+
+.col{
+    max-width: 240px;
+}
