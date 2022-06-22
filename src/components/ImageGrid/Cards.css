@@ -23,7 +23,7 @@
     justify-content: space-between;
 }
 
-.title{
+#title{
     display: flex;
     font-size: 25px;
     margin-left: 8px;
@@ -31,7 +31,7 @@
     font-weight: bold;
 }
 
-.name{
+#name{
     display: flex;
     font-size: 11.5px;
 }

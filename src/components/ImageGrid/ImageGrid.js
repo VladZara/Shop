@@ -11,7 +11,7 @@ import "./Cards.css"
 export const ImageGrid = (props) => {
     return (
     <Container fluid="md" className="container col-container">
-    <h1 className="title">{props.title}</h1>
+    <h1 id="title">{props.title}</h1>
         <Row>
             <Col>
                 <Image src={props.img1} className="item-view"/>

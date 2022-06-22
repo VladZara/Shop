@@ -10,7 +10,7 @@ const CartSideBar = (props) => {
         <div className="shopping-cart">
             <div className="top">
                 <p className="title">SHOPPING CART</p>
-                <Image src={closeButton} className="close-button"></Image>
+                <Image src={closeButton} className="close-button" onClick={closeCart}></Image>
             </div>
             <Item boughtItem={props.img} name={props.name} colorSize={props.colorSize} amount={props.amount} price={props.price}/>
             <div className="total-sum">

@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 const CartButtons = () => {
     return (
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 cart-buttons">
             <Button variant="primary" size="lg" className="check-out">
             CHECK OUT
             </Button>
