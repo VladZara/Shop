@@ -12,9 +12,29 @@ function App() {
   return (
     <div className="App">
         <Header/>
+        <CartSideBar boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>
+        <MainNav/>
         <TopSide/>
-        <ForWomen/>
-        <ForMen/>
+        <ImageGrid title="WOMEN"
+         img1={img1w} name1="Women's tracksuit Q109" price1="$38.00"
+         img2={img2w} name2="Cluse La Boheme Rose Gold" price2="$30.00"
+         img3={img3w} name3="Mercury Tee" price3="$54.00"
+         img4={img4w} name4="Skin Sweatpans" price4="$21.00"
+         img5={img5w} name5="Short Sleeved Hoodie" price5="$32.00"
+         img6={img6w} name6="Ridley High Waist" price6="$68.00"
+         img7={img7w} name7="Cream women pants" price7="$45.00"
+         img8={img8w} name8="Simple Skin T-shirt" price8="$20.00"/>
+
+        <ImageGrid title="MEN"
+         img1={img1m} name1="Striped Sweatshirt" price1="$38.00"
+         img2={img2m} name2="Men ponts" price2="$30.00"
+         img3={img3m} name3="Men Knit Sweater" price3="$54.00"
+         img4={img4m} name4="Dusk Pom Beanie" price4="$180.00"
+         img5={img5m} name5="Denim Trucker Jocket" price5="$32.00"
+         img6={img6m} name6="Denim Vest" price6="$320.00"
+         img7={img7m} name7="Leather White Trainers" price7="$45.00"
+         img8={img8m} name8="Checked Tailored Trousers" price8="$280.00"/>
+        <Subscribe/>
         <Footer/>
         {/* <Card/> */}
     </div>
