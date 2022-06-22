@@ -9,7 +9,7 @@ const Info = () => {
             <Row>
                 <Col><CardGroup>
             <Card>
-                <Card.Img variant="left" src="holder.js/100px160" />
+                <Card.Img variant="left" src="holder.js/100px160" circle />
                 <Card.Body>
                 <Card.Title>Free Shipping</Card.Title>
                 <Card.Text>
@@ -19,7 +19,7 @@ const Info = () => {
             </Card>
 
             <Card>
-                <Card.Img variant="left" src="holder.js/100px160" />
+                <Card.Img variant="left" src="holder.js/100px160" circle />
                 <Card.Body>
                 <Card.Title>30 Days Return</Card.Title>
                 <Card.Text>

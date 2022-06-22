@@ -18,6 +18,7 @@ import img8 from "./imgs/image8.png";
 import "./Cards.css"
 
 export const ForMen = () => {
+    
     return (
     <Container fluid="md" className="container">
     <h1 className="title">MEN'S</h1>
@@ -65,7 +66,7 @@ export const ForMen = () => {
         </Col>
     </Row>
 
-    {SeeAll()}
+    <SeeAll/>
     
 </Container>
     )
