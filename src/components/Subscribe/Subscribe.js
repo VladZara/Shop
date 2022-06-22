@@ -11,7 +11,7 @@ const Subscribe = () => {
         <Container className="d-flex justify-content-center  align-items-center ">
             <Image src={img} fluid="true" className="m-0 card-size"/>
             <div className="white-bg position-absolute">
-                <p className="background fw-bold top">SPECIAL OFFER</p>
+                <p className="background fw-bold topText">SPECIAL OFFER</p>
                 <p className="background fw-bold fs-4 middle">SUBSCRIBE</p>
                 <p className="background fw-bold fs-4 bottom">AND <span className="pink">GET 10% OFF</span> </p>
                 <Form.Group className="mb-3  email-position ">
