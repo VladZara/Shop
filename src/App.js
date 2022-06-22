@@ -3,17 +3,39 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import TopSide from "../src/components/Topside/Topside";
 import Header from "../src/components/Header/Header";
+import Subscribe from "../src/components/Subscribe/Subscribe";
 import ForMen from "./components/ImageGrid/ForMen";
 import ForWomen from "./components/ImageGrid/ForWomen";
 import Footer from "./components/Footer/Footer";
 import Card from "./components/AddtoCard/Card";
+import CartSideBar from "./components/ShoppingCart/CartSideBar";
+import img from "../src/components/ImageGrid/imgs/image1.png";
+import CategoryPage from "./components/CategoryPages/CategoryPage";
+import ImageGrid from "./components/ImageGrid/ImageGrid";
+
+import img1w from "./components/ImageGrid/imgs/image2.1.png";
+import img2w from "./components/ImageGrid/imgs/image2.2.png";
+import img3w from "./components/ImageGrid/imgs/image2.3.png";
+import img4w from "./components/ImageGrid/imgs/image2.4.png";
+import img5w from "./components/ImageGrid/imgs/image2.5.png";
+import img6w from "./components/ImageGrid/imgs/image2.6.png";
+import img7w from "./components/ImageGrid/imgs/image2.7.png";
+import img8w from "./components/ImageGrid/imgs/image2.8.png";
+
+import img1m from "./components/ImageGrid/imgs/image1.png";
+import img2m from "./components/ImageGrid/imgs/image2.png";
+import img3m from "./components/ImageGrid/imgs/image3.png";
+import img4m from "./components/ImageGrid/imgs/image4.png";
+import img5m from "./components/ImageGrid/imgs/image5.png";
+import img6m from "./components/ImageGrid/imgs/image6.png";
+import img7m from "./components/ImageGrid/imgs/image7.png";
+import img8m from "./components/ImageGrid/imgs/image8.png";
 
 function App() {
   return (
     <div className="App">
         <Header/>
         <CartSideBar boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>
-        <MainNav/>
         <TopSide/>
         <ImageGrid title="WOMEN"
          img1={img1w} name1="Women's tracksuit Q109" price1="$38.00"

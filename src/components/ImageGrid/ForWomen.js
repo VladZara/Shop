@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-import SeeAll from "./SeeAll"
+import { Button } from "react-bootstrap";
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/esm/Row';
@@ -65,7 +65,9 @@ export const ForWomen = () => {
         </Col>
     </Row>
 
-        <SeeAll/>
+    <Button variant="secondary" size="lg" className="button">
+        SEE ALL
+    </Button>
 
 </Container>
     )
