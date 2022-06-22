@@ -8,7 +8,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 
 import "./Category.css"
 
-function TopBarsW() {
+function TopBars(props) {
   return (
     <div className="App">
 
@@ -18,7 +18,7 @@ function TopBarsW() {
             <h2>Misto</h2>
         </Navbar.Brand>
         <div>
-            <Nav  className='head'>
+            <Nav className='head'>
                 <h5>About Us</h5>
                 <h5>Women</h5>
                 <h5>Men</h5>
@@ -33,11 +33,11 @@ function TopBarsW() {
         </Nav>
         </Navbar>
         <div className="category">
-            <h1 className="title-category">WOMEN</h1>
+            <h1 className="title-category">{props.category}</h1>
         </div>
         
     </div>
   );
 }
 
-export default TopBarsW;
+export default TopBars;
