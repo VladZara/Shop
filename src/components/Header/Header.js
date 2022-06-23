@@ -36,7 +36,7 @@ const Header = () => {
             <Button variant="dark"> <InstagramIcon /> </Button>   
             <Button variant="dark"> <TwitterIcon /> </Button>   
             <Button variant="dark"> <PinterestIcon /> </Button>
-            <Col></Col>   
+         
         </Navbar>
         </Container>
         
