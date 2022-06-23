@@ -12,7 +12,7 @@ const RightSide = () => {
             <Row>
                 <Col className="text">
                         <div className="innerText">
-                            <Button variant="light" size="lg">Men</Button>
+                            <Button variant="light" size="lg">Women</Button>
                         </div>
                     <Figure.Image
                         width={320}
