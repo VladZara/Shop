@@ -13,7 +13,7 @@ import Stars from "../../ImageGrid/Stars";
 import Pants from "../../../images/pants.jpg";
 import "../Card.css";
 import HeartIcon from "./icons/loveheart.png";
-import Visa from "./PayOptions/Visa.png";
+
 
 const CardDescription = () => {
 

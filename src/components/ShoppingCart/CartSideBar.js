@@ -4,13 +4,19 @@ import Image from 'react-bootstrap/Image';
 import closeButton from "./icons/close.svg";
 import CartButtons from "./Buttons";
 
-
 const CartSideBar = (props) => {
+    const closeCartHandler = () => {
+        const shoppingCart = document.querySelector(".shopping-cart");
+        shoppingCart.classList.add("close-cart");
+    }
+
     return (
         <div className="shopping-cart">
             <div className="top">
                 <p className="title">SHOPPING CART</p>
-                <Image src={closeButton} className="close-button"></Image>
+                <div onClick={closeCartHandler}>
+                    <Image src={closeButton} className="close-button"></Image>
+                </div>
             </div>
             <Item boughtItem={props.img} name={props.name} colorSize={props.colorSize} amount={props.amount} price={props.price}/>
             <div className="total-sum">
@@ -22,3 +28,4 @@ const CartSideBar = (props) => {
     )
 }
 export default CartSideBar
+

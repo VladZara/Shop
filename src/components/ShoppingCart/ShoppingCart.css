@@ -124,3 +124,8 @@
 .cart-buttons{
     margin-top: 2%;
 }
+
+.close-cart{
+    opacity: 0;
+    z-index: 0;
+}
