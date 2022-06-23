@@ -53,10 +53,10 @@ const Header = () => {
             <Col><p>Blog</p></Col>
             <Col><p>Contact</p></Col>
                 <ButtonGroup>
-                    <Button variant="light"><SearchIcon/></Button>
-                    <Button variant="light"><PublicIcon/></Button>
-                    <Button variant="light"><PersonIcon/></Button>
-                    <Button variant="light" onClick={() => {setOpenCart(true)}}><ShoppingBagIcon/></Button>
+                    <Button variant="white"><SearchIcon/></Button>
+                    <Button variant="white"><PublicIcon/></Button>
+                    <Button variant="white"><PersonIcon/></Button>
+                    <Button variant="white" onClick={() => {setOpenCart(true)}}><ShoppingBagIcon/></Button>
              </ButtonGroup>
         </Navbar>
   </Container>
