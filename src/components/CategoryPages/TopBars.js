@@ -1,4 +1,4 @@
-import MainNav from "../Header/MainNav";
+import MainNav from "../Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Navbar} from 'react-bootstrap'
 

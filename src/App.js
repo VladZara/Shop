@@ -1,17 +1,20 @@
-import TopSide from "../src/components/Topside/Topside";
-import MainNav from "./components/Header/MainNav";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import GridProps from "./components/ImageGrid/GridProps";
-import './App.css';
+import TopSide from "../src/components/Topside/Topside";
+import Header from "../src/components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Subscribe from "./components/Subscribe/Subscribe";
-import CategoryPage from "./components/CategoryPages/CategoryPage";
+
+
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (
     <div className="App">
-        <MainNav/>
-        <TopSide/>
+      <Header/>
+      <TopSide/>
         <GridProps/>
         <Subscribe/>
         <Footer/>
