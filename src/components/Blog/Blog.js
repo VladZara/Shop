@@ -5,15 +5,15 @@ import "./Blog.css"
 import first from "./../../images/newyork-pic.jpg"
 import second from "./../../images/wedding-pic.jpg"
 import third from "./../../images/bohemian-pic.jpg"
+import Button from "react-bootstrap/Button";
 
 function Blog() {
     return (
         <Container>
             <div className="d-flex m-4 justify-content-between">
                 <p className="m-0 fw-bolder fs-5">LATEST FROM BLOG</p>
-                <p className="fw-bolder text-secondary">SEE ALL</p>
+                <Button className="fw-bolder text-secondary" variant="light">SEE ALL</Button>
             </div>
-
             <CardGroup>
                 <Card className="px-3">
                     <Card.Img variant="top" src={first}/>
