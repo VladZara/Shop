@@ -12,15 +12,20 @@ import PublicIcon from '@mui/icons-material/Public';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CartSideBar from '../ShoppingCart/CartSideBar';
+
+import img from "../ImageGrid/imgs/image1.png";
+
+
+import { useState } from "react"
 
 const MainNav = () => {
-    const openCartHandler = () => {
-        const openCart = document.querySelector(ShoppingBagIcon);
-        shoppingCart.classList.remove("close-cart");
-    }
+
+    const [openCartButton, setOpenCart] = useState(false)
 
  return (
     <div>
+        <CartSideBar trigger={openCartButton} setTrigger={setOpenCart} boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>
         <Container fluid="true" variant="black">
         <Navbar  bg="dark" variant="dark">
             <Button variant="dark"> <CallIcon /> + 068 (68279) 94183 </Button>   
@@ -49,7 +54,7 @@ const MainNav = () => {
                 <Button variant="light"><SearchIcon/></Button>
                 <Button variant="light"><PublicIcon/></Button>
                 <Button variant="light"><PersonIcon/></Button>
-                <Button variant="light" onClick={openCartHandler}><ShoppingBagIcon/></Button>
+                <Button variant="light" onClick={() => {setOpenCart(true)}}><ShoppingBagIcon/></Button>
             </ButtonGroup>
         
   </Navbar>

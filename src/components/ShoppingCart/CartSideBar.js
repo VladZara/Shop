@@ -5,18 +5,12 @@ import closeButton from "./icons/close.svg";
 import CartButtons from "./Buttons";
 
 const CartSideBar = (props) => {
-    const closeCartHandler = () => {
-        const shoppingCart = document.querySelector(".shopping-cart");
-        shoppingCart.classList.add("close-cart");
-    }
 
-    return (
+    return (props.trigger) ? (
         <div className="shopping-cart">
             <div className="top">
                 <p className="title">SHOPPING CART</p>
-                <div onClick={closeCartHandler}>
-                    <Image src={closeButton} className="close-button"></Image>
-                </div>
+                <Image src={closeButton} className="close-button" onClick={() => props.setTrigger(false)}></Image>
             </div>
             <Item boughtItem={props.img} name={props.name} colorSize={props.colorSize} amount={props.amount} price={props.price}/>
             <div className="total-sum">
@@ -25,7 +19,7 @@ const CartSideBar = (props) => {
             </div>
             <CartButtons/>
         </div>
-    )
+    ) : ""
 }
 export default CartSideBar
 
