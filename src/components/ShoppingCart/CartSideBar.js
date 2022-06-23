@@ -22,3 +22,4 @@ const CartSideBar = (props) => {
     ) : ""
 }
 export default CartSideBar
+
