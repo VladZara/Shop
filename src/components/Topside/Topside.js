@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
+import Button from 'react-bootstrap/esm/Button';
 import Slider from '../Slider/Slider';
 import RightSide from '../RightSide/RightSide';
 import Info from '../Info/Info';
@@ -11,9 +12,9 @@ const TopSide = () => {
       <Container fluid="md" className="mt-20">
         <Row>
           <Col className="text">
-            <div className="innerText text-center">
-              Your Banner
-            </div>
+              <div className="innerText">
+                <Button variant="light" size="lg">Your Banner</Button>
+              </div>
             <Slider/>
           </Col>
             <Col>

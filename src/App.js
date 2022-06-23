@@ -34,7 +34,7 @@ import img8m from "./components/ImageGrid/imgs/image8.png";
 function App() {
   return (
     <div className="App">
-        <Header/>
+        {/* <Header/>
         <CartSideBar boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>
         <TopSide/>
         <ImageGrid title="WOMEN"
@@ -57,8 +57,8 @@ function App() {
          img7={img7m} name7="Leather White Trainers" price7="$45.00"
          img8={img8m} name8="Checked Tailored Trousers" price8="$280.00"/>
         <Subscribe/>
-        <Footer/>
-        {/* <Card/> */}
+        <Footer/> */}
+        <Card/>
     </div>
   );
 }

@@ -8,6 +8,7 @@ import {
     ButtonToolbar, 
     Figure} 
     from 'react-bootstrap';
+import {Icon} from "@iconify/react/dist/iconify";
 import Stars from "../../ImageGrid/Stars";
 import Pants from "../../../images/pants.jpg";
 import "../Card.css";
@@ -101,7 +102,7 @@ const CardDescription = () => {
             </Row>
 
             <Row className="mt-0">
-                <Container>
+                <Container fluid>
             <Row>
                 <Col xs lg="4">Guaranteed Safe Checkout </Col>
                 <Col className="lineDescription"></Col>
@@ -109,49 +110,36 @@ const CardDescription = () => {
                 </Container>
             </Row>
 
-            <Row>
-        <Col>
-            <Figure.Image 
-            src={Visa} 
-            width={100}
-            height={60}
-            />
-        </Col>
-        <Col><Figure.Image 
-            src={Visa} 
-            width={100}
-            height={60}
-            />
-        </Col>
-        <Col>
-            <Figure.Image 
-                src={Visa} 
-                width={100}
-                height={60}
-            />
-        </Col>
-        <Col>
-            <Figure.Image 
-                src={Visa} 
-                width={100}
-                height={60}
-            />
-        </Col>
-        <Col>
-            <Figure.Image 
-                src={Visa} 
-                width={100}
-                height={60}
-            />
-        </Col>
-        <Col>
-            <Figure.Image 
-                src={Visa} 
-                width={100}
-                height={60}
-            />
-        </Col>
-            </Row>
+            
+                <Container fluid>
+                <Row>
+                <Col>
+                <Icon icon="fa6-brands:stripe"  width="70" height="70" className="mx-1"/>
+                </Col>
+                <Col>
+                <Icon icon="fontisto:paypal"  width="70" height="70" className="mx-1"/>
+                </Col>
+                <Col>
+                <Icon icon="cib:visa"  width="70" height="70" className="mx-1"/>
+                </Col>
+                <Col>
+                <Icon icon="brandico:mastercard"  width="70" height="70" className="mx-1"/>
+                </Col>
+                <Col>
+                <Icon icon="simple-icons:discover"  width="70" height="70" className="mx-1"/>
+                </Col>
+                <Col> 
+                    <Icon icon="fontisto:american-express"  width="70" height="70" className="mx-1"/>
+                </Col>
+                </Row>
+                </Container>
+                  
+                    
+                    
+                    
+                   
+            
+            
 
             <Row className="description">
         <Col className="d-inline-flex p-2"><h4>Description</h4></Col>

@@ -1,6 +1,7 @@
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Figure from 'react-bootstrap/esm/Figure';
+import Button from 'react-bootstrap/esm/Button';
 import Img2 from '../../images/women.webp';
 import Img3 from '../../images/men.jpg';
 import Img4 from '../../images/accessories.jpeg';
@@ -10,9 +11,9 @@ const RightSide = () => {
         <div>
             <Row>
                 <Col className="text">
-                    <div className="innerText text-center">
-                        <h4>some text</h4>
-                     </div>
+                        <div className="innerText">
+                            <Button variant="light" size="lg">Men</Button>
+                        </div>
                     <Figure.Image
                         width={320}
                         alt="women"
@@ -21,7 +22,7 @@ const RightSide = () => {
                 </Col>
                 <Col className="text">
                     <div className="innerText">
-                    <h4>some text</h4>
+                        <Button variant="light" size="lg">Men</Button>
                     </div>
                     <Figure.Image 
                     width={320}
@@ -33,7 +34,7 @@ const RightSide = () => {
                 <Row className="text">
                     <Figure >
                         <div className="innerText">
-                            <h4>some text</h4>
+                            <Button variant="light" size="lg">Accessories</Button>
                         </div>
                         <Figure.Image className="accessories"
                             width={660}
