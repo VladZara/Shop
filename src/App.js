@@ -5,8 +5,6 @@ import ImageGrid from "../src/components/ImageGrid/ImageGrid";
 import './App.css';
 import Footer from "./components/Footer/Footer";
 import Subscribe from "./components/Subscribe/Subscribe";
-import CartSideBar from "./components/ShoppingCart/CartSideBar";
-import img from "../src/components/ImageGrid/imgs/image1.png";
 import CategoryPage from "./components/CategoryPages/CategoryPage";
 
 import img1w from "./components/ImageGrid/imgs/image2.1.png";
@@ -30,7 +28,6 @@ import img8m from "./components/ImageGrid/imgs/image8.png";
 function App() {
   return (
     <div className="App">
-        <CartSideBar boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>
         <MainNav/>
         <TopSide/>
         <ImageGrid title="WOMEN"
