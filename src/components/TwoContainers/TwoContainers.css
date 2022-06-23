@@ -1,0 +1,28 @@
+.backgroundText{
+    color: #000000;
+    text-align: center;
+    font-size: 2rem;
+}
+.cardSize{
+    width: 525px;
+}
+.pink{
+    color: hotpink;
+}
+.whiteBg{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #ffffff;
+    height: 70px;
+    width: 320px;
+}
+.topTxt{
+    top: 40%;
+    color: #838383;
+}
+.bottomText{
+    top: 46%;
+}

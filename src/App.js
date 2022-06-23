@@ -26,11 +26,17 @@ import img5m from "./components/ImageGrid/imgs/image5.png";
 import img6m from "./components/ImageGrid/imgs/image6.png";
 import img7m from "./components/ImageGrid/imgs/image7.png";
 import img8m from "./components/ImageGrid/imgs/image8.png";
+import TwoContainers from "./components/TwoContainers/TwoContainers";
+import Blog from "./components/Blog/Blog";
+
+function TwoContainer() {
+    return null;
+}
 
 function App() {
   return (
     <div className="App">
-        <CartSideBar boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>
+        {/*<CartSideBar boughtItem={img} name="Hoody" colorSize="White, L" amount="2" price="$38.99" totalPrice="$78.00"/>*/}
         <MainNav/>
         <TopSide/>
         <ImageGrid title="WOMEN"
@@ -52,7 +58,9 @@ function App() {
          img6={img6m} name6="Denim Vest" price6="$320.00"
          img7={img7m} name7="Leather White Trainers" price7="$45.00"
          img8={img8m} name8="Checked Tailored Trousers" price8="$280.00"/>
+        <TwoContainers/>
         <Subscribe/>
+        <Blog/>
         <Footer/>
         {/* <CategoryPage category="Men"
          img1={img1m} name1="Striped Sweatshirt" price1="$38.00"
