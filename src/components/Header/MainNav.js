@@ -12,7 +12,12 @@ import PublicIcon from '@mui/icons-material/Public';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 const MainNav = () => {
+    const openCartHandler = () => {
+        const openCart = document.querySelector(ShoppingBagIcon);
+        shoppingCart.classList.remove("close-cart");
+    }
 
  return (
     <div>
@@ -44,7 +49,7 @@ const MainNav = () => {
                 <Button variant="light"><SearchIcon/></Button>
                 <Button variant="light"><PublicIcon/></Button>
                 <Button variant="light"><PersonIcon/></Button>
-                <Button variant="light"><ShoppingBagIcon/></Button>
+                <Button variant="light" onClick={openCartHandler}><ShoppingBagIcon/></Button>
             </ButtonGroup>
         
   </Navbar>
