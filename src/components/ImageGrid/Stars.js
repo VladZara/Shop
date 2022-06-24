@@ -1,7 +1,7 @@
 import star1 from "./imgs/star1.svg";
 import star2 from "./imgs/star2.svg";
 import Image from 'react-bootstrap/Image';
-import "./Cards.css"
+import "./ImageGrid.css"
 
 export const Stars = () => {
     return (

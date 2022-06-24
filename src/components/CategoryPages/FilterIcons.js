@@ -1,13 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Image} from "react-bootstrap";
-import "./Category.css";
+import "./CategoryPages.css";
 
 import apps from "./icons/apps.svg";
 import menu from "./icons/menu.svg";
 import filter from "./icons/filter.svg";
 import bestselers from "./icons/bestselers.svg";
 
-function IconButtons() {
+function FilterIcons() {
   return (
     <div className="App">
         <div className="navigation">
@@ -28,4 +28,4 @@ function IconButtons() {
   );
 }
 
-export default IconButtons;
+export default FilterIcons;
