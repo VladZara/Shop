@@ -14,7 +14,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CartSideBar from '../ShoppingCart/CartSideBar';
 
-import img from "../ImageGrid/imgs/image1.png";
+import img from "../../images/woman2.jpg";
 
 
 import { useState } from "react"

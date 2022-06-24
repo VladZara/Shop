@@ -1,14 +1,11 @@
 import React from "react";
-import GridProps from "./components/ImageGrid/ImageGridProps";
-import TopSide from "../src/components/Topside/Topside";
+import GridProps from "./components/MainPage/ImageGrid/ImageGridProps";
+import TopSide from "../src/components/MainPage/Topside/Topside";
 import Header from "../src/components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Blog from "./components/Blog/Blog";
-import SpecialOffers from "./components/SpecialOffers/SpecialOffers";
-import Subscribe from "./components/Subscribe/Subscribe";
-import PropsForCategories from "./components/CategoryPages/PropsForCategories"
-
-
+import Blog from "./components/MainPage/Blog/Blog";
+import SpecialOffers from "./components/MainPage/SpecialOffers/SpecialOffers";
+import Subscribe from "./components/MainPage/Subscribe/Subscribe";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -23,7 +20,6 @@ function App() {
         <Subscribe/>
         <Blog/>
         <Footer/>
-        {/* <PropsForCategories/> */}
     </div>
   );
 }
