@@ -4,6 +4,7 @@ import TopSide from "../src/components/Topside/Topside";
 import Header from "../src/components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Blog from "./components/Blog/Blog";
+import SpecialOffers from "./components/SpecialOffers/SpecialOffers";
 import Subscribe from "./components/Subscribe/Subscribe";
 
 
@@ -17,6 +18,7 @@ function App() {
       <Header/>
       <TopSide/>
         <GridProps/>
+        <SpecialOffers/>
         <Subscribe/>
         <Blog/>
         <Footer/>
