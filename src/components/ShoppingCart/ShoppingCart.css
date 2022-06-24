@@ -26,10 +26,14 @@
 
 .close-button{
     filter: hue-rotate(90deg) brightness(390%) contrast(0%);
-    height: 20px;
+    height: 25px;
     z-index: 6;
     margin-right: 5%;
     margin-top: 4%;
+}
+
+.close-button:hover{
+    cursor: pointer;
 }
 
 .name{

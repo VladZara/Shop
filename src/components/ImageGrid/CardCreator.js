@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/esm/Card';
 import Stars from "./Stars"
-import "./Cards.css"
+import "./ImageGrid.css"
 
-const Cards = (props) => {
+const CardCreator = (props) => {
 return (
 <Card style={{ width: '200px' }} className="card">
   <Card.Body>
@@ -16,4 +16,4 @@ return (
 </Card>)
 }
 
-export default Cards
+export default CardCreator

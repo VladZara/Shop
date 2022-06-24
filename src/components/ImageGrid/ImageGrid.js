@@ -1,4 +1,4 @@
-import Cards from "./Cards";
+import Cards from "./CardCreator";
 import Button from 'react-bootstrap/Button';
 
 import Container from 'react-bootstrap/Container';
@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Image from 'react-bootstrap/Image';
 
-import "./Cards.css"
+import "./ImageGrid.css"
 
 export const ImageGrid = (props) => {
     return (

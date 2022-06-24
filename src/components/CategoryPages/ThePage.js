@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../Footer/Footer";
-import "./Category.css"
+import "./CategoryPages.css"
 
 import TopBars from "./TopBars";
-import ImgGreed from "./ImgGreed";
+import CategoryGrid from "./CategoryGrid";
 
 function CategoryPage(props) {
   return (
     <div className="App">
 
     <TopBars category = {props.category}/>
-    <ImgGreed img1={props.img1} name1={props.name1} price1={props.price1}
+    <CategoryGrid img1={props.img1} name1={props.name1} price1={props.price1}
               img2={props.img2} name2={props.name2} price2={props.price2}
               img3={props.img3} name3={props.name3} price3={props.price3}
               img4={props.img4} name4={props.name4} price4={props.price4}

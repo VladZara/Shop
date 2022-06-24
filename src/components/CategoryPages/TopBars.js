@@ -2,7 +2,7 @@ import MainNav from "../Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Navbar} from 'react-bootstrap'
 
-import "./Category.css"
+import "./CategoryPages.css"
 
 function TopBars(props) {
   return (
