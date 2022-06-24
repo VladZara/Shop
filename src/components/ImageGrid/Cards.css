@@ -7,26 +7,24 @@
 
 .item-view{
     width: 200px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card{
     margin-left: 15%;
     border: none;
     display: flex;
-    flex-wrap: nowrap;
 }
 
 .card-info{
     display: flex;
-    flex-flow: row;
     justify-content: space-between;
 }
 
 #title{
     display: flex;
     font-size: 25px;
-    margin-left: 5%;
+    margin-left: 4%;
     color: rgb(50, 50, 50) !important;
     font-weight: bold;
 }
@@ -34,6 +32,8 @@
 #name{
     display: flex;
     font-size: 11.5px;
+    flex-wrap: nowrap;
+    width: 120%;
 }
 
 #price{
@@ -56,9 +56,9 @@
 }
 
 .col-card{
-    max-width: 240px;
+    max-width: 325px;
 }
 
 .card-body{
-    margin-left: auto;
+    margin-left: 33.2px;
 }
